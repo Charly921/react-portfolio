@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Project A",
+        "imgSrc": "projects/project.png",
+        "description": "Lorem, ipsum dolor sit",
+        "skills": ["React", "Express", "Node"],
+        "demo": "https://demo.com",
+        "source": "https://source.com"
+    },
+    {
+        "title": "Project B",
+        "imgSrc": "projects/project.png",
+        "description": "Lorem, ipsum dolor sit",
+        "skills": ["React", "Express", "Node"],
+        "demo": "https://demo.com",
+        "source": "https://source.com"
+    },
+    {
+        "title": "Project C",
+        "imgSrc": "projects/project.png",
+        "description": "Lorem, ipsum dolor sit",
+        "skills": ["React", "Express", "Node"],
+        "demo": "https://demo.com",
+        "source": "https://source.com"
+    }
+]

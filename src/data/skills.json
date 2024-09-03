@@ -1,0 +1,94 @@
+[
+    {
+        "title": "HTML",
+        "imgSrc": "skills/html.png"
+    },
+    {
+        "title": "CSS",
+        "imgSrc": "skills/css.png"
+    },
+    {
+        "title": "Bootstrap",
+        "imgSrc": "skills/bootstrap.png"
+    },
+    {
+        "title": "JavaScript",
+        "imgSrc": "skills/javascript.png"
+    },
+    {
+        "title": "TypeScript",
+        "imgSrc": "skills/typescript.png"
+    },
+    {
+        "title": "Angular",
+        "imgSrc": "skills/angular.png"
+    },
+    {
+        "title": "Material",
+        "imgSrc": "skills/material.png"
+    },
+    {
+        "title": "React",
+        "imgSrc": "skills/react.png"
+    },
+    {
+        "title": "Tailwindcss",
+        "imgSrc": "skills/tailwindcss.png"
+    },
+    {
+        "title": "PHP",
+        "imgSrc": "skills/php.png"
+    },
+    {
+        "title": "Laravel",
+        "imgSrc": "skills/laravel.png"
+    },
+    {
+        "title": "Node Js",
+        "imgSrc": "skills/node.png"
+    },
+    {
+        "title": "MySQL",
+        "imgSrc": "skills/mysql.png"
+    },
+    {
+        "title": "Firebase",
+        "imgSrc": "skills/firebase.png"
+    },
+    {
+        "title": "Linux",
+        "imgSrc": "skills/linux.png"
+    },
+    {
+        "title": "Apache",
+        "imgSrc": "skills/apache.png"
+    },
+    {
+        "title": "Terminal",
+        "imgSrc": "skills/terminal.png"
+    },
+    {
+        "title": "CWP",
+        "imgSrc": "skills/cwp.png"
+    },
+    {
+        "title": "cPanel",
+        "imgSrc": "skills/cpanel.png"
+    },
+    {
+        "title": "Roundcube",
+        "imgSrc": "skills/roundcube.png"
+    },
+    {
+        "title": "Git",
+        "imgSrc": "skills/git.png"
+    },
+    {
+        "title": "Github",
+        "imgSrc": "skills/github.png"
+    },
+    {
+        "title": "Bitbucket",
+        "imgSrc": "skills/bitbucket.png"
+    }
+]

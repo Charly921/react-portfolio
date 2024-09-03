@@ -1,0 +1,59 @@
+[
+    {
+        "role": "Web Developer Manager",
+        "organization": "Bloomingtec",
+        "startDate": "Aug, 2022",
+        "endDate": "Present",
+        "experiences": [
+            "Designed, developed, implemented and maintained 2 web-based ERP applications, one focused on sales and resource management and another focused on production in the agricultural sector.",
+            "Designed and managed databases, using the Firebase backend cloud computing service.",
+            "Collaborate with team to create, improve, and maintain web-based applications.",
+            "Provided technical support to clients for troubleshooting and application maintenance."
+        ],
+        "imgSrc": "history/bloomingtec.png"
+    },
+    {
+        "role": "Web Developer Manager",
+        "organization": "Grupo ASR",
+        "startDate": "Oct, 2021",
+        "endDate": "Aug, 2024",
+        "experiences": [
+            "Designed, developed, maintained and deployed a web ERP application for managing the company's own resources.",
+            "Created, implemented, managed and maintained databases, ensuring data consistency, quality and security.",
+            "Optimized ERP web application to increase speed and scalability.",
+            "Installed, configured and managed VPS server.",
+            "Performed system backups and disaster recovery operations.",
+            "Monitored server performance and troubleshoot issues.",
+            "Created and maintained server automation scripts.",
+            "Ensure server availability, reliability, and scalability.",
+            "Configured, installed, maintained and updated server software.",
+            "Installed, configured and managed web and mail servers.",
+            "Provided technical support to internal clients for troubleshooting and application maintenance."
+        ],
+        "imgSrc": "history/grupoasr.png"
+    },
+    {
+        "role": "Web Developer",
+        "organization": "Inomac",
+        "startDate": "Feb, 2022",
+        "endDate": "Jul, 2022",
+        "experiences": [
+            "Developed and integrated modules into existing web-based application for resource management.",
+            "Collaborated with the Development Manager to align development with new module releases."
+        ],
+        "imgSrc": "history/inomac.png"
+    },
+    {
+        "role": "Web Developer",
+        "organization": "Didocu",
+        "startDate": "Nov, 2018",
+        "endDate": "May, 2021",
+        "experiences": [
+            "Designed, coded and modified 20+ enterprise web applications from layout to function, according to the client's specifications.",
+            "Created 30+ single-page applications that featured user-friendly design and clear navigation.",
+            "Designed, developed and deployed of desktop application with data persistence using web technologies, for administration and control of formats in the energy sector.",
+            "Provided technical support to clients for troubleshooting and application maintenance."
+        ],
+        "imgSrc": "history/didocu.png"
+    }
+]
