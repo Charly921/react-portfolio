@@ -1,25 +1,25 @@
 [
     {
-        "title": "Project A",
-        "imgSrc": "projects/project.png",
-        "description": "Lorem, ipsum dolor sit",
-        "skills": ["React", "Express", "Node"],
+        "title": "ERP - GRUPO ASR",
+        "imgSrc": "projects/asr.png",
+        "description": "Web system for managing resources within the company, witch integrates customer and supplier management, project planning, activity calendar, supply control, processing, analysis and sales reports.",
+        "skills": ["Laravel", "PHP", "HTML & CSS3", "MySQL", "Bootstrap", "JavaScript"],
         "demo": "https://demo.com",
         "source": "https://source.com"
     },
     {
-        "title": "Project B",
-        "imgSrc": "projects/project.png",
-        "description": "Lorem, ipsum dolor sit",
-        "skills": ["React", "Express", "Node"],
+        "title": "ERP - BLOOMINGTEC",
+        "imgSrc": "projects/bloomingtec.png",
+        "description": "Web application for resource management in agricultural production companies, which integrates supplier management, supply control, purchase processing, agrochemical application management, crop monitoring, production log, human capital management and reporting.",
+        "skills": ["Angular", "Firebase", "Material", "TypeScript", "HTML & CSS3", "PHP", "JavaScript"],
         "demo": "https://demo.com",
         "source": "https://source.com"
     },
     {
-        "title": "Project C",
-        "imgSrc": "projects/project.png",
-        "description": "Lorem, ipsum dolor sit",
-        "skills": ["React", "Express", "Node"],
+        "title": "ERP - BLOOMINGTEC",
+        "imgSrc": "projects/bloomingtec1.png",
+        "description": "Web application for resource management of agricultural product distribution companies, which integrates supplier management, customer records, supply control, purchase processing, quotes and orders, visit reports, activity calendar, and sales analysis and reports.",
+        "skills": ["Angular", "Firebase", "Material", "TypeScript", "PHP", "HTML & CSS3"],
         "demo": "https://demo.com",
         "source": "https://source.com"
     }

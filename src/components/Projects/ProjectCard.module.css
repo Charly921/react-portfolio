@@ -12,6 +12,7 @@
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
     max-width: 345px;
+    cursor: pointer;
 }
 
 .image {
@@ -19,13 +20,13 @@
 }
 
 .title {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 700;
 }
 
 .description {
     margin-top: 6px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -62,4 +63,10 @@
     border-radius: 10px;
     background: var(--color-primary);
     padding: 1px 22px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        max-width: 90%;
+    }
 }

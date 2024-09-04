@@ -6,7 +6,9 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return <nav className={styles.navbar}>
-        <a className={styles.title} href="/">Portfolio</a>
+        <div className={styles.containerLink}>
+            <a className={styles.title} href="/">Portfolio</a>
+        </div>
         <div className={styles.menu}>
             <img 
                 className={styles.menuBtn} 
@@ -23,16 +25,24 @@ export const Navbar = () => {
                 onClick={() => setMenuOpen(false)}
             >
                 <li>
-                    <a href="#about">About</a>
+                    <div className={styles.containerLink}>
+                        <a href="#about">About</a>
+                    </div>
                 </li>
                 <li>
-                    <a href="#experience">Experience</a>
+                    <div className={styles.containerLink}>
+                        <a href="#experience">Experience</a>
+                    </div>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <div className={styles.containerLink}>
+                        <a href="#projects">Projects</a>
+                    </div>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <div className={styles.containerLink}>
+                        <a href="#contact">Contact</a>
+                    </div>
                 </li>
             </ul>
         </div>
