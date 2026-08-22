@@ -1,4 +1,3 @@
-import { getImageUrl } from "../../utils";
 import styles from "./Contact.module.css";
 
 const EMAIL = "921charly@gmail.com";
@@ -7,24 +6,20 @@ const MAILTO = `mailto:${EMAIL}?subject=${encodeURIComponent("Solicitud de cotiz
 export const Contact = () => {
     return (
         <footer className={styles.container} id="contact">
-            <div className={styles.text}>
-                <h2>¿Tienes un proyecto en mente?</h2>
-                <p>Cuéntame de qué se trata y te envío una propuesta sin compromiso.</p>
+            <div className={styles.content}>
+                <h2 className={styles.title}>¿Tienes un <span className={styles.gradientText}>proyecto en mente</span>?</h2>
+                <p className={styles.description}>Cuéntame de qué se trata y te envío una propuesta sin compromiso.</p>
+                <a href={MAILTO} className={styles.ctaLink}>
+                    <span>{EMAIL}</span>
+                </a>
+                <div className={styles.links}>
+                    <a href="https://www.linkedin.com/in/juan-carlos-tzintzun-rodriguez-a99420211/" target="_blank" rel="noopener noreferrer">linkedin.com/in/juan-carlos-tzintzun</a>
+                    <a href="https://github.com/charly921" target="_blank" rel="noopener noreferrer">github.com/charly921</a>
+                </div>
             </div>
-            <ul className={styles.links}>
-                <li className={styles.link}>
-                    <img src={getImageUrl("contact/mail.png")} alt="Email icon" loading="lazy" />
-                    <a href={MAILTO}>{EMAIL}</a>
-                </li>
-                <li className={styles.link}>
-                    <img src={getImageUrl("contact/linkedin.png")} alt="LinkedIn icon" loading="lazy" />
-                    <a href="https://www.linkedin.com/in/juan-carlos-tzintzun-rodriguez-a99420211/" target="_blank" rel="noopener noreferrer">linkedin.com</a>
-                </li>
-                <li className={styles.link}>
-                    <img src={getImageUrl("contact/github.png")} alt="Github icon" loading="lazy" />
-                    <a href="https://github.com/charly921" target="_blank" rel="noopener noreferrer">github.com</a>
-                </li>
-            </ul>
+            <div className={styles.footerBar}>
+                <span>© 2026 Carlos Tzintzun</span>
+            </div>
         </footer>
     );
 }

@@ -1,8 +1,35 @@
 @import "./vars.css";
 
 .App {
-    background-color: var(--color-bg);
+    position: relative;
+    background: var(--bg);
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.App::before,
+.App::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(60px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.App::before {
+    top: -200px;
+    left: -150px;
+    width: 900px;
+    height: 900px;
+    background: radial-gradient(circle, oklch(0.55 0.19 290 / 45%), transparent 70%);
+}
+
+.App::after {
+    top: 300px;
+    right: -250px;
+    width: 900px;
+    height: 900px;
+    background: radial-gradient(circle, oklch(0.6 0.17 195 / 35%), transparent 70%);
 }

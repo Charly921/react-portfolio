@@ -1,7 +1,6 @@
 [
     {
         "title": "ERP - GRUPO ASR",
-        "imgSrc": "projects/asr.png",
         "description": "Sistema web para la gestión de recursos de la empresa, que integra administración de clientes y proveedores, planeación de proyectos, calendario de actividades, control de insumos, procesamiento, análisis y reportes de ventas.",
         "skills": [
             "Laravel",
@@ -14,7 +13,6 @@
     },
     {
         "title": "ERP - BLOOMINGTEC",
-        "imgSrc": "projects/bloomingtec.png",
         "description": "Aplicación web para la gestión de recursos en empresas de producción agrícola, que integra administración de proveedores, control de insumos, procesamiento de compras, gestión de aplicación de agroquímicos, monitoreo de cultivos, bitácora de producción, gestión de capital humano y reportes.",
         "skills": [
             "Angular",
@@ -28,7 +26,6 @@
     },
     {
         "title": "ERP - BLOOMINGTEC",
-        "imgSrc": "projects/bloomingtec1.png",
         "description": "Aplicación web para la gestión de recursos de empresas distribuidoras de productos agrícolas, que integra administración de proveedores, registro de clientes, control de insumos, procesamiento de compras, cotizaciones y pedidos, reportes de visita, calendario de actividades, y análisis y reportes de ventas.",
         "skills": [
             "Angular",

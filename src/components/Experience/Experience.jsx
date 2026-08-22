@@ -1,51 +1,30 @@
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
 import styles from "./Experience.module.css";
 
 export const Experience = () => {
     return <section className={styles.container} id='experience'>
-    <h2 className={styles.title}>Experiencia</h2>
-    <div className={styles.content}>
-        <div className={styles.skills}>{
-            skills.map((skill, id) => {
-                return (
-                    <div key={id} className={styles.skill}>
-                        <div className={styles.skillImgContainer}>
-                            <img src={getImageUrl(skill.imgSrc)} alt={skill.title} loading="lazy" />
-                        </div>
-                        <p>{skill.title}</p>
-                    </div>);
-            })
-            }
+        <div className={styles.header}>
+            <div className={styles.eyebrow}>Stack</div>
+            <div className={styles.stack}>
+                {skills.map((skill, id) => (
+                    <span key={id} className={styles.pill}>{skill.title}</span>
+                ))}
+            </div>
         </div>
-        <ul className={styles.history}>
-            {
-                history.map((item, id) => {
-                    return (
-                        <li key={id} className={styles.historyItem}>
-                            <img
-                                src={getImageUrl(item.imgSrc)}
-                                alt={`${item.organization} LOGO`}
-                                loading="lazy" />
-                            <div className={styles.historyItemDetails}>
-                                <h3>{`${item.role}, ${item.organization}`}</h3>
-                                <p>{`${item.startDate} - ${item.endDate}`}</p>
-                                <ul>
-                                    {
-                                        item.experiences.map((exp, id) => {
-                                            return <li key={id}>
-                                                {exp}
-                                            </li>;
-                                        })
-                                    }
-                                </ul>
-                            </div>
-                        </li>
-                    );
-                })
-            }
-        </ul>
-    </div>
-</section>;
+
+        <div className={styles.header}>
+            <div className={styles.eyebrow}>Experiencia</div>
+            <h2 className={styles.title}>Trayectoria <span className={styles.gradientText}>profesional</span></h2>
+        </div>
+        <div className={styles.grid}>
+            {history.map((item, id) => (
+                <div key={id} className={styles.card}>
+                    <div className={styles.date}>{`${item.startDate} — ${item.endDate}`.toUpperCase()}</div>
+                    <h3>{`${item.role} · ${item.organization}`}</h3>
+                    <p>{item.summary}</p>
+                </div>
+            ))}
+        </div>
+    </section>;
 }

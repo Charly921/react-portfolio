@@ -5,12 +5,15 @@ import styles from './Projects.module.css';
 export const Projects = () => {
     return (
         <section className={styles.container} id="projects">
-            <h2 className={styles.title}>Casos de Éxito</h2>
+            <div className={styles.header}>
+                <div className={styles.eyebrow}>Casos de éxito</div>
+                <h2 className={styles.title}>Sistemas ERP <span className={styles.gradientText}>en producción</span></h2>
+            </div>
             <div className={styles.projects}>
                 {
                     projects.map((project, id) => {
                         return (
-                            <ProjectCard  key={id} project={project}/>
+                            <ProjectCard key={id} project={project} />
                         );
                     })
                 }
