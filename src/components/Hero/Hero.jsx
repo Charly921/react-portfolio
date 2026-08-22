@@ -5,12 +5,12 @@ import styles from "./Hero.module.css";
 export const Hero = () => {
     return <section className={styles.container}>
         <div className={styles.content}>
-            <h1 className={styles.title}>Hi, I'm Carlos</h1>
-            <p className={styles.description}>Web developer with over 5 years of experience developing, testing and deploying applications. I enjoy building complete and robust products from start to finish, facing new challenges and continuous learning.</p>
-            <a 
-                href="mailto:921charly@gmail.com" 
+            <h1 className={styles.title}>Desarrollo aplicaciones web a la medida de tu negocio</h1>
+            <p className={styles.description}>+5 años construyendo sistemas ERP y aplicaciones web completas, desde el diseño de la base de datos hasta el despliegue en producción.</p>
+            <a
+                href="#contact"
                 className={styles.contactBtn}>
-                <span>Contact Me</span>
+                <span>Solicitar cotización</span>
             </a>
         </div>
         <img src={getImageUrl("hero/heroImg.png")} alt="Hero image" className={styles.heroImg}/>
