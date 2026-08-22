@@ -7,7 +7,7 @@ export const Navbar = () => {
 
     return <nav className={styles.navbar}>
         <div className={styles.containerLink}>
-            <a className={styles.title} href="/">Portfolio</a>
+            <a className={styles.title} href="/">Carlos Tzintzun</a>
         </div>
         <div className={styles.menu}>
             <img 
@@ -26,22 +26,22 @@ export const Navbar = () => {
             >
                 <li>
                     <div className={styles.containerLink}>
-                        <a href="#about">About</a>
+                        <a href="#servicios">Servicios</a>
                     </div>
                 </li>
                 <li>
                     <div className={styles.containerLink}>
-                        <a href="#experience">Experience</a>
+                        <a href="#experience">Experiencia</a>
                     </div>
                 </li>
                 <li>
                     <div className={styles.containerLink}>
-                        <a href="#projects">Projects</a>
+                        <a href="#projects">Proyectos</a>
                     </div>
                 </li>
                 <li>
                     <div className={styles.containerLink}>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Contacto</a>
                     </div>
                 </li>
             </ul>
