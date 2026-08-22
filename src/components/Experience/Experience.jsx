@@ -1,4 +1,3 @@
-import React from "react";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
@@ -13,7 +12,7 @@ export const Experience = () => {
                 return (
                     <div key={id} className={styles.skill}>
                         <div className={styles.skillImgContainer}>
-                            <img src={getImageUrl(skill.imgSrc)} alt={skill.title} />
+                            <img src={getImageUrl(skill.imgSrc)} alt={skill.title} loading="lazy" />
                         </div>
                         <p>{skill.title}</p>
                     </div>);
@@ -25,9 +24,10 @@ export const Experience = () => {
                 history.map((item, id) => {
                     return (
                         <li key={id} className={styles.historyItem}>
-                            <img 
-                                src={getImageUrl(item.imgSrc)} 
-                                alt={`${item.organization} LOGO`} />
+                            <img
+                                src={getImageUrl(item.imgSrc)}
+                                alt={`${item.organization} LOGO`}
+                                loading="lazy" />
                             <div className={styles.historyItemDetails}>
                                 <h3>{`${item.role}, ${item.organization}`}</h3>
                                 <p>{`${item.startDate} - ${item.endDate}`}</p>

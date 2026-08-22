@@ -1,4 +1,3 @@
-import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Contact.module.css";
 
@@ -14,16 +13,16 @@ export const Contact = () => {
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <img src={getImageUrl("contact/mail.png")} alt="Email icon" />
+                    <img src={getImageUrl("contact/mail.png")} alt="Email icon" loading="lazy" />
                     <a href={MAILTO}>{EMAIL}</a>
                 </li>
                 <li className={styles.link}>
-                    <img src={getImageUrl("contact/linkedin.png")} alt="LinkedIn icon" />
-                    <a href="https://www.linkedin.com/in/juan-carlos-tzintzun-rodriguez-a99420211/" target="_blank">linkedin.com</a>
+                    <img src={getImageUrl("contact/linkedin.png")} alt="LinkedIn icon" loading="lazy" />
+                    <a href="https://www.linkedin.com/in/juan-carlos-tzintzun-rodriguez-a99420211/" target="_blank" rel="noopener noreferrer">linkedin.com</a>
                 </li>
                 <li className={styles.link}>
-                    <img src={getImageUrl("contact/github.png")} alt="Github icon" />
-                    <a href="https://github.com/charly921" target="_blank">github.com</a>
+                    <img src={getImageUrl("contact/github.png")} alt="Github icon" loading="lazy" />
+                    <a href="https://github.com/charly921" target="_blank" rel="noopener noreferrer">github.com</a>
                 </li>
             </ul>
         </footer>

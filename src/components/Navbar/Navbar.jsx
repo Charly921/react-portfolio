@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -10,16 +10,22 @@ export const Navbar = () => {
             <a className={styles.title} href="/">Carlos Tzintzun</a>
         </div>
         <div className={styles.menu}>
-            <img 
-                className={styles.menuBtn} 
-                src={
-                    menuOpen
-                    ? getImageUrl("nav/closeIcon.png")
-                    : getImageUrl("nav/menuIcon.png")
-                } 
-                alt="menu-button" 
+            <button
+                type="button"
+                className={styles.menuBtn}
+                aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
+                aria-expanded={menuOpen}
                 onClick={() => setMenuOpen(!menuOpen)}
-            />
+            >
+                <img
+                    src={
+                        menuOpen
+                        ? getImageUrl("nav/closeIcon.png")
+                        : getImageUrl("nav/menuIcon.png")
+                    }
+                    alt=""
+                />
+            </button>
             <ul 
                 className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
                 onClick={() => setMenuOpen(false)}

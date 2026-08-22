@@ -1,4 +1,3 @@
-import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 
@@ -13,7 +12,7 @@ export const Hero = () => {
                 <span>Solicitar cotización</span>
             </a>
         </div>
-        <img src={getImageUrl("hero/heroImg.png")} alt="Hero image" className={styles.heroImg}/>
+        <img src={getImageUrl("hero/heroImg.png")} alt="Carlos Tzintzun, desarrollador web" className={styles.heroImg} fetchPriority="high"/>
         <div className={styles.topBlur}></div>
         <div className={styles.bottomBlur}></div>
     </section>;
