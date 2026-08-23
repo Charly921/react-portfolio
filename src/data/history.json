@@ -4,19 +4,20 @@
         "organization": "Bloomingtec",
         "startDate": "Ago, 2022",
         "endDate": "Actualidad",
+        "summary": "Diseñé, desarrollé e implementé 2 aplicaciones web ERP, con bases de datos en Firebase y soporte técnico continuo a clientes.",
         "experiences": [
             "Diseñé, desarrollé, implementé y mantuve 2 aplicaciones web ERP.",
             "Diseñé y administré bases de datos utilizando el servicio de cómputo en la nube de Firebase.",
             "Colaboré con el equipo para crear, mejorar y mantener aplicaciones web.",
             "Proporcioné soporte técnico a clientes para la resolución de problemas y mantenimiento de aplicaciones."
-        ],
-        "imgSrc": "history/bloomingtec.png"
+        ]
     },
     {
         "role": "Gerente de Desarrollo Web",
         "organization": "Grupo ASR",
         "startDate": "Oct, 2021",
         "endDate": "Ago, 2024",
+        "summary": "Desarrollé y desplegué una aplicación web ERP completa; administré el servidor VPS, backups y automatización.",
         "experiences": [
             "Diseñé, desarrollé, mantuve y desplegué una aplicación web ERP.",
             "Creé, implementé, administré y mantuve bases de datos, garantizando consistencia, calidad y seguridad de los datos.",
@@ -29,31 +30,30 @@
             "Configuré, instalé, mantuve y actualicé software de servidor.",
             "Instalé, configuré y administré servidores web y de correo.",
             "Proporcioné soporte técnico a clientes internos para la resolución de problemas y mantenimiento de aplicaciones."
-        ],
-        "imgSrc": "history/grupoasr.png"
+        ]
     },
     {
         "role": "Desarrollador Web",
         "organization": "Inomac",
         "startDate": "Feb, 2022",
         "endDate": "Jul, 2022",
+        "summary": "Desarrollé e integré módulos en una aplicación web existente para la gestión de recursos.",
         "experiences": [
             "Desarrollé e integré módulos en una aplicación web existente para la gestión de recursos.",
             "Colaboré con el gerente de desarrollo para alinear el desarrollo con nuevas versiones de módulos."
-        ],
-        "imgSrc": "history/inomac.png"
+        ]
     },
     {
         "role": "Desarrollador Web",
         "organization": "Didocu",
         "startDate": "Nov, 2018",
         "endDate": "May, 2021",
+        "summary": "Diseñé y programé más de 20 aplicaciones web empresariales y 30 SPAs con diseño amigable y navegación clara.",
         "experiences": [
             "Diseñé, programé y modifiqué más de 20 aplicaciones web empresariales, desde el diseño hasta la funcionalidad, según las especificaciones del cliente.",
             "Creé más de 30 aplicaciones de una sola página con diseño amigable y navegación clara.",
             "Diseñé, desarrollé y desplegué una aplicación de escritorio con persistencia de datos usando tecnologías web, para la administración y control de formatos en el sector energético.",
             "Proporcioné soporte técnico a clientes para la resolución de problemas y mantenimiento de aplicaciones."
-        ],
-        "imgSrc": "history/didocu.png"
+        ]
     }
 ]
